@@ -11,5 +11,34 @@
 	<a href="whatsapp://send?phone=85296689534">Open chat to Estyn</a><br>
 	<a href="whatsapp://send?phone=85296689534&text=Example%20default%20message">Open chat to Estyn with example default message</a><br>
 	<a href="whatsapp://send?phone=85212341234">Open chat to Non-Contact</a><br>
+
+	<h1>Other Link Test</h1>
+	<a href="whatsapp://send" data-text="Take a look at thasdfis awesome website:" data-href="http://google.com">Share</a>
+
+
+
+	<!-- WhatsHelp.io widget -->
+	<!-- from https://whatshelp.io/widget -->
+	<script type="text/javascript">
+	    (function () {
+	        var options = {
+	            whatsapp: "+85259836988", // WhatsApp number
+	            email: "x@x.com", // Email
+	            sms: "+85259836988", // Sms phone number
+	            call: "+85259836988", // Call phone number
+	            company_logo_url: "//static.whatshelp.io/img/flag.png", // URL of company logo (png, jpg, gif)
+	            greeting_message: "Here's my example greeting message", // Text of greeting message
+	            call_to_action: "Example call to action", // Call to action
+	            button_color: "#A8CE50", // Color of button
+	            position: "right", // Position may be 'right' or 'left'
+	            order: "whatsapp,sms,call,email" // Order of buttons
+	        };
+	        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+	        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+	        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+	        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	    })();
+	</script>
+	<!-- /WhatsHelp.io widget -->
 </body>
 </html>
